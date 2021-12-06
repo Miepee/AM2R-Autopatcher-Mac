@@ -4,7 +4,7 @@
 - THIS IS AN UNOFFICIAL TOOL, DO NOT ASK THE COMMUNITY DEVELOPERS FOR SUPPORT!!! -
 ```
 
-This utility patches the official AM2R 1.1 release (Windows) to the fan-made Community Upadate (***unofficial*** Mac).
+This utility patches the official AM2R 1.1 release (Windows) to the fan-made Community Update (***unofficial*** Mac).
 
 ## Patching process
 First, download the patching tool and its data [here](https://github.com/Miepee/AM2R-Autopatcher-Mac/archive/refs/heads/main.zip) and extract it to somewhere.  
