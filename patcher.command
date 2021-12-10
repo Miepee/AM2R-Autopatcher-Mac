@@ -59,8 +59,8 @@ else
     #if the zip is not found, maybe the directory is
     #in which case, copy that one to the am2r_xx folder
     if [ -d "AM2R_11" ]; then
-        echo "AM2R_11 found! Copying to ${OUTPUT}"
-        cp -RT AM2R_11 ${OUTPUT}
+        echo "AM2R_11 folder found! Copying to ${OUTPUT}"
+        cp -R AM2R_11 ${OUTPUT}
     else
         echo "AM2R_11 not found. Place AM2R_11.zip (case sensitive) in this folder and try again."
         echo "Press any key to quit..."
