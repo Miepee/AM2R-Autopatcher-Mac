@@ -7,6 +7,15 @@ VERSION="15_5"
 OUTPUT="am2r_"${VERSION}
 RESOURCES=${OUTPUT}"/Resources"
 INPUT=""
+ARCH="$(uname -m)"
+# Homebrew has a different install depending on ARCH
+# and I want to include the homebrew path here just in case
+# it wasnt done during installation
+if [ $ARCH == "arm64" ] ; then
+	PATH=$PATH:/opt/homebrew/bin
+else
+	PATH=$PATH:/usr/local/bin
+fi
 
 #Since people are likely to double click on this, I need a way to get the script_dir
 #Thanks SO: https://stackoverflow.com/a/246128
