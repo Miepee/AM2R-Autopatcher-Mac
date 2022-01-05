@@ -7,7 +7,7 @@
 This utility patches the official AM2R 1.1 release (Windows) to the fan-made Community Update (***unofficial*** Mac).
 
 ## Patching process
-First, download the patching tool and its data [here](https://github.com/Miepee/AM2R-Autopatcher-Mac/archive/refs/heads/main.zip) and extract it to somewhere.  
+First, download the patching tool and its data [here](https://github.com/Miepee/AM2R-Autopatcher-Mac/archive/refs/heads/master.zip) and extract it to somewhere.  
 After that, to patch your copy of (Windows) AM2R v1.1, place the `AM2R_11.zip` (case-sensitive) file in the same folder as `patcher.command`. After that, you should be able to execute `patcher.commmand` by double clicking it or executing it via a terminal.  
 MacOS may ask for confirmation if you really want to execute the script, in which case accept.  
 During the patching process you will be asked if you want to patch for Mac or for Android. Press the corresponding number for that.  
