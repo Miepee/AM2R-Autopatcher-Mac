@@ -329,8 +329,7 @@ if [ $INPUT = "1" ]; then
 elif [ $INPUT = "2" ]; then
     echo "Android selected."
 	if ! command -v xdelta3 &> /dev/null; then
-		#ask to install xdelta
-	    echo "Java could not be found. Please make sure to install Java first."
+	    echo "xdelta3 could not be found. Please make sure to install xdelta3 first."
 		echo "Press any key to quit..."
         read -n1 INPUT
         exit -1
