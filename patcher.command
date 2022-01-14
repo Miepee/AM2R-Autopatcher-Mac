@@ -249,7 +249,7 @@ echo ""
 echo "1 - Mac"
 echo "2 - Android"
 echo ""
-echo "Awating input:"
+echo "Awaiting input:"
 
 read -n1 INPUT
 echo ""
