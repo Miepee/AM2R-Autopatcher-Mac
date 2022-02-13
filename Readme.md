@@ -20,3 +20,8 @@ If you want to install mods, simply place the Mac version .zip of the mod into t
 After patching you'll find the newly generated `am2r_1X_X.app` or `AndroidM2R_1X_X-signed.apk` (or the name of the Mod) depending on if you patched for Mac or Android.  
 For Mac, simply double-click the file.  
 For Android, move it over to your Android phone and install it there.
+
+## Tutorial Video
+[Here's](https://cdn.discordapp.com/attachments/880520809515479071/942444145342025818/djdnz9.mp4) a small tutorial video showcasing the above instructions:  
+
+
